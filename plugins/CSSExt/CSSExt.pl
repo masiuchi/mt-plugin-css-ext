@@ -12,7 +12,7 @@ my $plugin = __PACKAGE__->new(
         key         => lc $NAME,
         version     => $VERSION,
         author_link => 'https://github.com/masiuchi',
-        plugin_link => 'https://github.com/masiuchi/mt-plugin-change-css-ext',
+        plugin_link => 'https://github.com/masiuchi/mt-plugin-css-ext',
         description =>
             'Translate less/sass/scss to css automatically when rebuilding css template.',
         settings => MT::PluginSettings->new(
